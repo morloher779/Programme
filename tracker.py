@@ -25,29 +25,31 @@ RELEVANT_HIGHWAYS = [
 # ---------------------------------------------------------
 
 def get_google_sheet():
-    """Verbindet sich mit der Google Tabelle (Modern & Stabil)"""
+    """Verbindet sich mit Google (Repariert kaputte Keys automatisch)"""
     try:
-        # 1. Credentials laden
-        # Wir greifen auf die secrets zu und wandeln sie in ein normales Dictionary um
+        # 1. Credentials als Dict laden
         creds_dict = dict(st.secrets["gcp_service_account"])
         
-        # 2. Fix für Zeilenumbrüche (falls nötig)
-        if "\\n" in creds_dict["private_key"]:
-            creds_dict["private_key"] = creds_dict["private_key"].replace("\\n", "\n")
-            
-        # 3. Verbindung aufbauen (Direkt mit gspread, ohne oauth2client)
-        # gspread service_account_from_dict ist viel robuster
-        client = gspread.service_account_from_dict(creds_dict)
+        # 2. KEY REPARATUR-KIT
+        raw_key = creds_dict["private_key"]
         
-        # 4. Tabelle öffnen
+        # Fall A: Der Key hat wörtliche "\n" Zeichen (z.B. aus JSON kopiert)
+        if "\\n" in raw_key:
+            raw_key = raw_key.replace("\\n", "\n")
+            
+        # Fall B: Der Key wurde mit """ in TOML eingefügt, hat aber Leerzeichen am Anfang/Ende
+        creds_dict["private_key"] = raw_key.strip()
+
+        # 3. Verbindung herstellen
+        client = gspread.service_account_from_dict(creds_dict)
         sheet = client.open(SHEET_NAME).sheet1
         return sheet
         
-    except KeyError as e:
-        st.error(f"FEHLER IN SECRETS.TOML: Der Schlüssel '{e}' fehlt in der Datei!")
-        st.stop()
     except Exception as e:
-        st.error(f"Verbindungsfehler: {e}")
+        st.error(f"Google Login fehlgeschlagen: {e}")
+        # Debug-Hilfe (Nur zum Testen, zeigt die ersten 10 Zeichen des Keys)
+        key_preview = st.secrets["gcp_service_account"]["private_key"][:35]
+        st.write(f"Key-Start sieht so aus: '{key_preview}...'")
         st.stop()
 
 def load_progress_google():
