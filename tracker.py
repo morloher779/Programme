@@ -25,18 +25,29 @@ RELEVANT_HIGHWAYS = [
 # ---------------------------------------------------------
 
 def get_google_sheet():
-    """Verbindet sich mit der Google Tabelle via st.secrets"""
+    """Verbindet sich mit der Google Tabelle (Modern & Stabil)"""
     try:
-        # Wir laden die Credentials aus .streamlit/secrets.toml
-        scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-        creds = ServiceAccountCredentials.from_json_keyfile_dict(st.secrets["gcp_service_account"], scope)
-        client = gspread.authorize(creds)
+        # 1. Credentials laden
+        # Wir greifen auf die secrets zu und wandeln sie in ein normales Dictionary um
+        creds_dict = dict(st.secrets["gcp_service_account"])
         
-        # Tabelle öffnen
+        # 2. Fix für Zeilenumbrüche (falls nötig)
+        if "\\n" in creds_dict["private_key"]:
+            creds_dict["private_key"] = creds_dict["private_key"].replace("\\n", "\n")
+            
+        # 3. Verbindung aufbauen (Direkt mit gspread, ohne oauth2client)
+        # gspread service_account_from_dict ist viel robuster
+        client = gspread.service_account_from_dict(creds_dict)
+        
+        # 4. Tabelle öffnen
         sheet = client.open(SHEET_NAME).sheet1
         return sheet
+        
+    except KeyError as e:
+        st.error(f"FEHLER IN SECRETS.TOML: Der Schlüssel '{e}' fehlt in der Datei!")
+        st.stop()
     except Exception as e:
-        st.error(f"Fehler bei Google Verbindung: {e}")
+        st.error(f"Verbindungsfehler: {e}")
         st.stop()
 
 def load_progress_google():
