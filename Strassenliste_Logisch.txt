@@ -1,0 +1,52 @@
+LOGISCHE BLOCK-VERTEILUNG
+=========================
+
+--- Ben (303 Gebäude) ---
+ - Am Rosenweg (4)
+ - Asternweg (1)
+ - Bergstraße (1)
+ - Dorfstraße (5)
+ - Fliederweg (8)
+ - Nelkenweg (5)
+ - Oberskirchner Straße (1)
+ - Tulpenweg (7)
+ - Untere Aichbachtalstraße (2)
+ - Veilchenstraße (4)
+
+--- Flo (154 Gebäude) ---
+ - (Siehe Karte)
+
+--- Jonas & Resi (305 Gebäude) ---
+ - Im Gries (1)
+ - Landshuter Straße (2)
+ - Landstraße (1)
+ - Manfred-Linden-Ring (2)
+
+--- MJ (70 Gebäude) ---
+ - Hüttenkofen (1)
+
+--- Nico (137 Gebäude) ---
+ - (Siehe Karte)
+
+--- Stefan (133 Gebäude) ---
+ - Luitpoldpark (8)
+
+--- Tina (93 Gebäude) ---
+ - (Siehe Karte)
+
+--- Tom (650 Gebäude) ---
+ - Am Sportpark (1)
+ - Eichenstraße (3)
+ - Isarstraße (6)
+ - Kraftwerkstraße (1)
+ - Meisenstraße (1)
+ - Mülleräcker (1)
+ - Neumühlstraße (4)
+ - Rathausstraße (2)
+ - Salbeistraße (1)
+
+--- Vale (230 Gebäude) ---
+ - Kraftwerkstraße (1)
+ - Königsfelderstraße (1)
+ - Äußere Königsfelderstraße (1)
+

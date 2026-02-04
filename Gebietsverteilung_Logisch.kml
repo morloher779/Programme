@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Folder id="2">
+            <Style id="9">
+                <LineStyle id="11">
+                    <color>ff0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="10">
+                    <color>6e0000ff</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Ben</name>
+            <Placemark id="4">
+                <name>Gebiet Ben</name>
+                <styleUrl>#9</styleUrl>
+                <Polygon id="3">
+                    <outerBoundaryIs>
+                        <LinearRing id="7">
+                            <coordinates>12.3107922,48.5529199,0.0 12.308937180023687,48.5546795823958,0.0 12.30616671473527,48.5583573177772,0.0 12.29971955,48.56801095000001,0.0 12.2995962,48.5689063,0.0 12.307753626326397,48.57154874700917,0.0 12.314901231570275,48.572397377268686,0.0 12.321902843021766,48.56742625257841,0.0 12.325729407949472,48.562827378439586,0.0 12.32575420924801,48.56226283006067,0.0 12.3107922,48.5529199,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="13">
+                <name>Start Ben</name>
+                <Point id="12">
+                    <coordinates>12.315285732488933,48.61301383421625,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="14">
+            <Style id="21">
+                <LineStyle id="23">
+                    <color>ffff0000</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="22">
+                    <color>6eff0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Stefan</name>
+            <Placemark id="16">
+                <name>Gebiet Stefan</name>
+                <styleUrl>#21</styleUrl>
+                <Polygon id="15">
+                    <outerBoundaryIs>
+                        <LinearRing id="19">
+                            <coordinates>12.303555999999997,48.6105125,0.0 12.290157338078785,48.611409806810165,0.0 12.290243333103446,48.6115737150395,0.0 12.292416533738196,48.613493950923576,0.0 12.295569102846601,48.61580735435952,0.0 12.31938668237646,48.632478496067996,0.0 12.32103384758306,48.62404438095583,0.0 12.319899272031893,48.622708830310714,0.0 12.3144427,48.618515849999994,0.0 12.303616443260418,48.61054319554005,0.0 12.303555999999997,48.6105125,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="25">
+                <name>Start Stefan</name>
+                <Point id="24">
+                    <coordinates>12.316412026926503,48.613981693021756,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="26">
+            <Style id="33">
+                <LineStyle id="35">
+                    <color>ff008000</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="34">
+                    <color>6e008000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Tina</name>
+            <Placemark id="28">
+                <name>Gebiet Tina</name>
+                <styleUrl>#33</styleUrl>
+                <Polygon id="27">
+                    <outerBoundaryIs>
+                        <LinearRing id="31">
+                            <coordinates>12.2839876,48.5760254,0.0 12.283742199999999,48.5774863,0.0 12.283999099999999,48.578517,0.0 12.284525150000716,48.58042889988095,0.0 12.289769399999997,48.59468619999999,0.0 12.29214970399327,48.586596611569384,0.0 12.286403249999998,48.57850059999999,0.0 12.284795550000002,48.5765627,0.0 12.2839876,48.5760254,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="37">
+                <name>Start Tina</name>
+                <Point id="36">
+                    <coordinates>12.31425752002685,48.61098694593706,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="38">
+            <Style id="45">
+                <LineStyle id="47">
+                    <color>ff800080</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="46">
+                    <color>6e800080</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Flo</name>
+            <Placemark id="40">
+                <name>Gebiet Flo</name>
+                <styleUrl>#45</styleUrl>
+                <Polygon id="39">
+                    <outerBoundaryIs>
+                        <LinearRing id="43">
+                            <coordinates>12.344642723393928,48.579686197648975,0.0 12.334108950000005,48.586920899999996,0.0 12.334172995775189,48.588667362689215,0.0 12.339353828499346,48.6034182269044,0.0 12.339956050000007,48.60351264999999,0.0 12.340778718951919,48.60330794128988,0.0 12.34822885,48.59579135,0.0 12.356272124148049,48.586770597023275,0.0 12.348154561023689,48.58092810409266,0.0 12.347508831277409,48.580662213723485,0.0 12.344642723393928,48.579686197648975,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="49">
+                <name>Start Flo</name>
+                <Point id="48">
+                    <coordinates>12.323826636165965,48.612898027022375,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="50">
+            <Style id="57">
+                <LineStyle id="59">
+                    <color>ff00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="58">
+                    <color>6e00a5ff</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Jonas &amp; Resi</name>
+            <Placemark id="52">
+                <name>Gebiet Jonas &amp; Resi</name>
+                <styleUrl>#57</styleUrl>
+                <Polygon id="51">
+                    <outerBoundaryIs>
+                        <LinearRing id="55">
+                            <coordinates>12.323561949999998,48.60874905,0.0 12.323331714090017,48.60893288221985,0.0 12.320934063660157,48.61288261809071,0.0 12.317399793318549,48.61971379611496,0.0 12.327557009043922,48.621909767467315,0.0 12.350464554231868,48.618056899567996,0.0 12.350277233750724,48.61769286723647,0.0 12.349689476897089,48.61729981628668,0.0 12.348801053788161,48.616829444580624,0.0 12.323561949999998,48.60874905,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="61">
+                <name>Start Jonas &amp; Resi</name>
+                <Point id="60">
+                    <coordinates>12.324610755217856,48.614478128541556,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="62">
+            <Style id="69">
+                <LineStyle id="71">
+                    <color>ff00008b</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="70">
+                    <color>6e00008b</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>MJ</name>
+            <Placemark id="64">
+                <name>Gebiet MJ</name>
+                <styleUrl>#69</styleUrl>
+                <Polygon id="63">
+                    <outerBoundaryIs>
+                        <LinearRing id="67">
+                            <coordinates>12.3506903,48.5996447,0.0 12.347169450459473,48.59979816239327,0.0 12.35156570541323,48.606505773718624,0.0 12.359352484562335,48.61099653484992,0.0 12.359761733536518,48.61108454746779,0.0 12.366629574990116,48.6033917850163,0.0 12.366378101177874,48.60320466794545,0.0 12.364988776707676,48.60265144714526,0.0 12.3506903,48.5996447,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="73">
+                <name>Start MJ</name>
+                <Point id="72">
+                    <coordinates>12.324970848795243,48.61296334932955,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="74">
+            <Style id="81">
+                <LineStyle id="83">
+                    <color>ff8080f0</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="82">
+                    <color>6e8080f0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Tom</name>
+            <Placemark id="76">
+                <name>Gebiet Tom</name>
+                <styleUrl>#81</styleUrl>
+                <Polygon id="75">
+                    <outerBoundaryIs>
+                        <LinearRing id="79">
+                            <coordinates>12.316479649838376,48.60523497344993,0.0 12.313378873057966,48.6054416564479,0.0 12.312444120627578,48.606807846269994,0.0 12.309800580256919,48.610999663464476,0.0 12.310942218459822,48.61316010586615,0.0 12.3144404,48.6149435,0.0 12.314794918237073,48.61492779567774,0.0 12.315385809538423,48.61487227553192,0.0 12.31603195,48.614746149999995,0.0 12.320250528629337,48.61342168143483,0.0 12.322260774059565,48.61194981616643,0.0 12.322841618206791,48.61088760330073,0.0 12.323214199999997,48.6085437,0.0 12.320823159307597,48.60606875945057,0.0 12.320155158271822,48.60573307677411,0.0 12.316479649838376,48.60523497344993,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="85">
+                <name>Start Tom</name>
+                <Point id="84">
+                    <coordinates>12.317408086973165,48.6107967419515,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="86">
+            <Style id="93">
+                <LineStyle id="95">
+                    <color>ff00ffff</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="94">
+                    <color>6e00ffff</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Vale</name>
+            <Placemark id="88">
+                <name>Gebiet Vale</name>
+                <styleUrl>#93</styleUrl>
+                <Polygon id="87">
+                    <outerBoundaryIs>
+                        <LinearRing id="91">
+                            <coordinates>12.315412305277022,48.58862056589663,0.0 12.301290600000002,48.59185099999999,0.0 12.298204496865925,48.60743196847259,0.0 12.31932834695005,48.60389062038538,0.0 12.323262399999999,48.60305549999999,0.0 12.323526918852567,48.602942917590546,0.0 12.318465225234922,48.59250605818153,0.0 12.315810750000004,48.5886739,0.0 12.315412305277022,48.58862056589663,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="97">
+                <name>Start Vale</name>
+                <Point id="96">
+                    <coordinates>12.318294561992476,48.610198660058224,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="98">
+            <Style id="105">
+                <LineStyle id="107">
+                    <color>ff8b0000</color>
+                    <colorMode>normal</colorMode>
+                    <width>3</width>
+                </LineStyle>
+                <PolyStyle id="106">
+                    <color>6e8b0000</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Nico</name>
+            <Placemark id="100">
+                <name>Gebiet Nico</name>
+                <styleUrl>#105</styleUrl>
+                <Polygon id="99">
+                    <outerBoundaryIs>
+                        <LinearRing id="103">
+                            <coordinates>12.3257338,48.568252300000005,0.0 12.322306120154003,48.56920885419789,0.0 12.30556425,48.5761714,0.0 12.305106789260948,48.576396819697564,0.0 12.304886411685928,48.57662166577122,0.0 12.3090956,48.5862106,0.0 12.309600464591666,48.58636431788618,0.0 12.309772731390417,48.58636351208595,0.0 12.33205291181746,48.58400876634142,0.0 12.332557348888011,48.58387568775408,0.0 12.332777116437969,48.58364304582761,0.0 12.33535195,48.5806331,0.0 12.33824508067468,48.576738644141784,0.0 12.338357050000003,48.575779450000006,0.0 12.337458250000001,48.5717016,0.0 12.3257338,48.568252300000005,0.0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="109">
+                <name>Start Nico</name>
+                <Point id="108">
+                    <coordinates>12.320471043760076,48.61284435799261,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

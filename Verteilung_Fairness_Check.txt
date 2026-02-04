@@ -1,0 +1,31 @@
+FAIRNESS CHECK (PUZZLE METHODE)
+===============================
+Gesamtgebäude: 2075
+Idealwert pro Person: 230.6
+
+--- Ben: 220 Gebäude (Abweichung: -11) ---
+Straßen (Auszug): Eichenstraße, Kraftwerkstraße, Salbeistraße...
+
+--- Flo: 202 Gebäude (Abweichung: -29) ---
+Straßen (Auszug): Isarstraße, Rathausstraße...
+
+--- Jonas & Resi: 201 Gebäude (Abweichung: -30) ---
+Straßen (Auszug): Hüttenkofen, Im Gries, Manfred-Linden-Ring...
+
+--- MJ: 220 Gebäude (Abweichung: -11) ---
+Straßen (Auszug): Landshuter Straße, Landstraße, Luitpoldpark...
+
+--- Nico: 281 Gebäude (Abweichung: +50) ---
+Straßen (Auszug): Am Rosenweg, Fliederweg, Königsfelderstraße, Nelkenweg, Tulpenweg...
+
+--- Stefan: 204 Gebäude (Abweichung: -27) ---
+Straßen (Auszug): Mülleräcker, Neumühlstraße...
+
+--- Tina: 267 Gebäude (Abweichung: +36) ---
+Straßen (Auszug): Asternweg, Bergstraße, Oberskirchner Straße, Untere Aichbachtalstraße...
+
+--- Tom: 241 Gebäude (Abweichung: +10) ---
+
+--- Vale: 239 Gebäude (Abweichung: +8) ---
+Straßen (Auszug): Am Sportpark, Dorfstraße, Kraftwerkstraße, Meisenstraße, Äußere Königsfelderstraße...
+
